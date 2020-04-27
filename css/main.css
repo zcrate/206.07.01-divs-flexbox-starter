@@ -115,17 +115,21 @@ body {
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  height: 300px;
+  width: 25%;
+  border: 10px solid rgba(53, 252, 80, 0.333);
+  padding: 30px;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
-  width: 30%;
+  font-size: 1.4em;
+  background-color: #636aac;
+  box-shadow: -3px -3px 5px #0005;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 
 
